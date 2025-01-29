@@ -284,7 +284,7 @@ Content-Type: application/json
   "created_at": "2024-01-29T12:00:00Z"
 }
 ```
-![WhatsApp Image 2025-01-29 at 00 54 14_83ddac12](https://github.com/user-attachments/assets/4a6a711d-a702-4d90-8004-e9b48ef4c2f4)
+![WhatsApp Image 2025-01-29 at 00 54 13_a8d5e4e8](https://github.com/user-attachments/assets/5400e27f-cf3e-41f7-b664-9cebb9009bcd)
 
 
 ## 🧪 **Run Tests Using Postman**  
