@@ -97,12 +97,14 @@ Content-Type: application/json
     "refresh": "your_refresh_token"
 }
 ```
+![WhatsApp Image 2025-01-29 at 14 19 51_c107fab2](https://github.com/user-attachments/assets/27d09207-575b-4263-bbf4-828d747017e2)
 
 ### **Use Token for API Requests**  
 ```http
 GET http://localhost:8000/api/responses/
 Authorization: Bearer <your_access_token>
 ```
+![WhatsApp Image 2025-01-29 at 14 20 50_91aacb8f](https://github.com/user-attachments/assets/7fdbd842-1b22-4084-96bc-133b3e44ce60)
 
 ### **POST Request Example**  
 ```http
@@ -110,6 +112,7 @@ POST http://localhost:8000/api/responses/
 Authorization: Bearer <your_access_token>
 Content-Type: application/json
 ```
+
 **Body:**  
 ```json
 {
@@ -117,6 +120,7 @@ Content-Type: application/json
     "model_used": "gpt-3.5"
 }
 ```
+![WhatsApp Image 2025-01-29 at 14 22 30_306f6450](https://github.com/user-attachments/assets/50d220d2-daa9-405e-8b46-d56e52228b95)
 
 ---
 
@@ -142,6 +146,8 @@ Content-Type: application/json
   }
   ```
 - **Status Code:** `200 OK`
+  ![WhatsApp Image 2025-01-29 at 14 19 51_3f3b825f](https://github.com/user-attachments/assets/c8254ef1-1fce-4902-ac7b-a70f17024391)
+
 
 ### 2️⃣ **Login with Invalid Credentials**  
 - **Body:**  
@@ -158,6 +164,8 @@ Content-Type: application/json
   }
   ```
 - **Status Code:** `401 Unauthorized`
+  ![WhatsApp Image 2025-01-29 at 14 24 17_256aaea3](https://github.com/user-attachments/assets/74132901-d244-4936-ba14-e7c79b98a72f)
+
 
 ### 3️⃣ **Login with Missing Fields**  
 - **Body:**  
@@ -173,6 +181,8 @@ Content-Type: application/json
   }
   ```
 - **Status Code:** `400 Bad Request`
+  ![WhatsApp Image 2025-01-29 at 14 24 49_def063ac](https://github.com/user-attachments/assets/89a6955a-4a21-4ab6-a006-2c24827dccae)
+
 
 ### 4️⃣ **Login with Non-Existent User**  
 - **Body:**  
@@ -189,6 +199,8 @@ Content-Type: application/json
   }
   ```
 - **Status Code:** `401 Unauthorized`
+  ![WhatsApp Image 2025-01-29 at 14 25 49_f8211709](https://github.com/user-attachments/assets/08f749b6-aded-450e-b11e-3dbedbbbf422)
+
 
 ### 5️⃣ **Login with Inactive User**  
 - **Body:**  
@@ -227,6 +239,8 @@ Content-Type: application/json
   }
   ```
 - **Status Code:** `200 OK`
+  ![WhatsApp Image 2025-01-29 at 14 26 56_79a2d3b3](https://github.com/user-attachments/assets/fde3d2cb-7bd4-4fab-9793-e652931ffdda)
+
 
 ### 2️⃣ **Get Response by Invalid ID (`/api/responses/{wrongid}/`)**  
 - **Request:**  
@@ -241,6 +255,7 @@ Content-Type: application/json
   }
   ```
 - **Status Code:** `404 Not Found`
+![WhatsApp Image 2025-01-29 at 14 27 25_7d706195](https://github.com/user-attachments/assets/c0ed6b64-39a9-40ce-aae3-f26f2eb09687)
 
 ---
 
