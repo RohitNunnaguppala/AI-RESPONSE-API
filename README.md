@@ -293,5 +293,3 @@ Content-Type: application/json
 3. Test each scenario from the above test cases.  
 
 ---
-
-### 🎯 **You're now ready to test and deploy your Django backend!** 🚀  
