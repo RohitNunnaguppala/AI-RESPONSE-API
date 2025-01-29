@@ -1,5 +1,3 @@
-
-
 # Django Backend Setup & API Testing  
 
 ## 🚀 Setup Instructions  
@@ -27,35 +25,28 @@
     source venv/bin/activate
     ```
 
-### 3. Install Django & Required Packages  
+### 3. Change directory
 ```sh
-pip install django psycopg2 djangorestframework
-```
-
-### 4. Create Django Project & App  
-```sh
-django-admin startproject myproject
 cd myproject
-python manage.py startapp api
 ```
 
-### 5. Install Dependencies  
+### 4. Install Dependencies  
 ```sh
 pip install -r requirements.txt
 ```
 
-### 6. Set Up Database Migrations  
+### 5. Set Up Database Migrations  
 ```sh
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-### 7. Create Superuser  
+### 6. Create Superuser  
 ```sh
 python manage.py createsuperuser
 ```
 
-### 8. Run Server  
+### 7. Run Server  
 ```sh
 python manage.py runserver
 ```
