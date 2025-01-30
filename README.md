@@ -1,5 +1,3 @@
-
-
 # Django Backend Setup & API Testing  
 
 ## 🚀 Setup Instructions  
@@ -27,35 +25,28 @@
     source venv/bin/activate
     ```
 
-### 3. Install Django & Required Packages  
+### 3. Change directory
 ```sh
-pip install django psycopg2 djangorestframework
-```
-
-### 4. Create Django Project & App  
-```sh
-django-admin startproject myproject
 cd myproject
-python manage.py startapp api
 ```
 
-### 5. Install Dependencies  
+### 4. Install Dependencies  
 ```sh
 pip install -r requirements.txt
 ```
 
-### 6. Set Up Database Migrations  
+### 5. Set Up Database Migrations  
 ```sh
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-### 7. Create Superuser  
+### 6. Create Superuser  
 ```sh
 python manage.py createsuperuser
 ```
 
-### 8. Run Server  
+### 7. Run Server  
 ```sh
 python manage.py runserver
 ```
@@ -284,7 +275,7 @@ Content-Type: application/json
   "created_at": "2024-01-29T12:00:00Z"
 }
 ```
-![WhatsApp Image 2025-01-29 at 00 54 14_83ddac12](https://github.com/user-attachments/assets/4a6a711d-a702-4d90-8004-e9b48ef4c2f4)
+![WhatsApp Image 2025-01-29 at 00 54 13_a8d5e4e8](https://github.com/user-attachments/assets/5400e27f-cf3e-41f7-b664-9cebb9009bcd)
 
 
 ## 🧪 **Run Tests Using Postman**  
@@ -293,5 +284,3 @@ Content-Type: application/json
 3. Test each scenario from the above test cases.  
 
 ---
-
-### 🎯 **You're now ready to test and deploy your Django backend!** 🚀  
